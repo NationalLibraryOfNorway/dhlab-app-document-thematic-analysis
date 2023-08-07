@@ -1,0 +1,14 @@
+community==1.0.0b1
+dhlab==2.26.1
+ipython
+matplotlib
+networkx==2.6.3
+numpy==1.22.3
+pandas==1.4.3
+Pillow==9.2.0
+python_louvain==0.13
+requests
+seaborn==0.10.0
+streamlit
+streamlit_agraph
+openpyxl
