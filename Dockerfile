@@ -13,4 +13,4 @@ RUN pip install -r requirements.txt
 EXPOSE 8501
 
 # command to run on container start
-CMD ["streamlit", "run", "themes_words.py", "--server.BaseUrl", "/tema"]
+CMD ["streamlit", "run", "themes_words.py", "--server.baseUrlPath", "/tema"]
