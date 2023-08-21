@@ -87,7 +87,7 @@ with header1:
     st.markdown("""[DH ved Nasjonalbiblioteket](https://nb.no/dh-lab)""")
     
 with header2:
-    im = Image.open("resources/DHlab_logo_web_en_black.png").convert('RGBA')
+    im = Image.open("DHlab_logo_web_en_black.png").convert('RGBA')
     alpha = im.split()[3]
     alpha = ImageEnhance.Brightness(alpha).enhance(.4)
     im.putalpha(alpha)
