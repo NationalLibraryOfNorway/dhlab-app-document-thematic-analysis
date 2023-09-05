@@ -11,7 +11,7 @@ RUN pip install -r requirements.txt
 
 # copy working files to the working directory
 # COPY . /code
-COPY themes_words.py gnl.py resources/DHlab_logo_web_en_black.png /code/
+COPY themes_words.py gnl.py DHlab_logo_web_en_black.png /code/
 
 
 EXPOSE 8501
