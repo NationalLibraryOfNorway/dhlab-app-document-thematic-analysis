@@ -17,4 +17,4 @@ COPY themes_words.py gnl.py resources/DHlab_logo_web_en_black.png /code/
 EXPOSE 8501
 
 # command to run on container start
-CMD ["streamlit", "run", "themes_words.py", "--server.baseUrlPath", "/tema", "--browser.gatherUsageStats=False"]
+CMD ["streamlit", "run", "themes_words.py", "--server.baseUrlPath", "/temaer", "--browser.gatherUsageStats=False"]
