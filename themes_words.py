@@ -181,7 +181,7 @@ with st.form(key='my_form'):
         ref = totals(refsize)
     with chunksz:
         chunksize = st.number_input(f"Størrelse på tekstdeler ({min_chunk} og oppover)", 
-                                min_value = min_chunk, value = 1000, help="Teksten deles opp i biter slik at ord som står i samme del blir knyttet sammen. Jo oftere to ord står sammen jo større er sjansen for at ender opp i samme tema")
+                                min_value = min_chunk, value = 300, help="Teksten deles opp i biter slik at ord som står i samme del blir knyttet sammen. Jo oftere to ord står sammen jo større er sjansen for at ender opp i samme tema")
     with relcutz:
         relevance = st.number_input("Angi grense på forskjell", min_value = 0,max_value = 1000, value = 5, help="Forskjellen beregnes som en forskjell i antall forekomster av ord i teksten sammenlignet med referansekorpuset, så om et ord forekommer x % i teksten og y % i referansen vil kravet sikre at x/y er større en verdien som angis. Jo høyere verdi, desto færre ord blir med i struktureringen")
         
